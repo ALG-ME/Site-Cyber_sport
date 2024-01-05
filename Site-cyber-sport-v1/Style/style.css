@@ -1,0 +1,97 @@
+@font-face {
+    font-family:'Podkova', sans-serif;
+    src: url(../Style/fonts/Podkova-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'Podkova-SemiBold', sans-serif;
+    src: url(../Style/fonts/Podkova-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+body{
+    font-family:'Podkova', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color:#5C5C5E;    
+}
+.bg__1{
+    min-height: 100vh;
+    background: url(../Style/image/bg3.jpg) center center / cover no-repeat;
+}
+
+.header{
+    border-bottom:1px solid rgb(184, 160, 160);
+}
+
+
+.container{
+    max-width: 100%;
+    padding: 2px 20px;
+    margin: 0 auto;
+    outline: 2px dashed #4d2828;  /* тут линии */
+}
+
+.where{
+    height: 100px;
+}
+.text__where{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 80px;
+    line-height: normal;
+    color: rgb(104, 42, 42);
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 13px;
+    
+}
+.menu__list{
+    font-size: 29px;
+    margin: 0 50px;
+}
+.menu_link {
+    display: inline-block;
+    text-decoration: none;
+    width: 300px;
+    background-color: #00FFFF;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+}
+/* тут отступ справа
+.menu__list {
+    margin-right: 10px; Add spacing between menu items if desired 
+} 
+*/
